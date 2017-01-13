@@ -1,0 +1,549 @@
+HTML {
+scrollbar-arrow-color:#ffffff; 
+scrollbar-face-color:#182C71; 
+scrollbar-3dlight-color:#fffff; 
+scrollbar-highlight-color:#fffff; 
+scrollbar-shadow-color:#ffffff; 
+scrollbar-darkshadow-color:#ffffff; 
+scrollbar-track-color:#ffffff; 
+}
+
+body {
+	font-family: Verdana, arial;
+	font-size: 11px;
+	color: #000000;
+	margin: 0px;
+	border: none;
+	padding:0px 0px 0px 0px;
+	background:#F4F4F4 ;
+	font:11px "verdana",sans-serif; 
+	_text-align:center;
+
+	/*
+
+		BACKGROUND-POSITION: center center; 
+	BACKGROUND-IMAGE: url(../Images/bg_grey.gif); 
+	*/
+	 
+
+}
+.tablehead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #4c6ab1; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tablecol-1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #d4e8f2; TEXT-DECORATION: none
+}
+.tablecol-2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e0eef6; TEXT-DECORATION: none
+}
+
+/* margin:0px 40px 0px 40px; */
+#PageSize{width:916px; 
+
+	PADDING: 0px! important;
+	PADDING-BOTTOM: 0px! important; 
+	MARGIN: 0px auto; 
+	POSITION: relative; 
+	BACKGROUND-COLOR: #ffffff;
+
+ }
+
+.LineBlue{background:#7F91C2;}
+.LineFooter{background:#BDC8DE;}
+.pointer {	cursor:pointer;}
+.tableBg{	background-color: #FFFFFF;}
+
+td {font-family: Verdana, arial;font-size: 11px;color: #000000; text-align: left;}
+ 
+.right {	text-align: right;}
+.left {	text-align: left;}
+.center {	text-align: center;}
+.bold {	font-weight:bold;}
+.justify {	text-align:justify;}
+.italic {	Font:Italic;}
+.uline {	text-decoration:underline;}
+
+/* ---  CSS Content Start --------------------------------------------------------- */
+
+.MiddleContentHeader
+{
+	font-family: Verdana, arial;
+	font-size: 11px;
+	font-weight:bold;
+	color: #3399FF;
+	text-align:justify;
+}
+
+
+.TopHeaderBG{	BACKGROUND-IMAGE: url(../Images/TopHeaderBGgif.gif); }
+.MenuBG {	background-color:#EFEBEF;}
+.MenuBGClass{	background-image: url(../Images/lev0_bg1.html);}
+
+.TableBorder{	background-color:#55BFFF;}
+.tableborderEnquiry {
+	border-color:#81A2DD;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	padding:0px 0px 0px 0px;
+}
+.linksbar {MARGIN-top:5px;	BACKGROUND-IMAGE: url(../Images/Line.gif); BACKGROUND-REPEAT: no-repeat;}
+
+.BorderLine{background-color:#CBCBCB}
+.HomeWelcomeFontColor{color:#00ADEA;}
+.HomeWelcomeContinuFontColor{color:#0D467F;}
+.HomeWelcomeFontSize
+{
+font-size:14px;FONT:Verdana, Arial, Helvetica; font-weight:bold; 
+}
+.TableHeaderFont{
+font-size:12px;FONT:Verdana, Arial, Helvetica; font-weight:bold;  color:#FFFFFF; 
+}
+
+.MainMenuLinkSpecialForMenu{text-align: center;FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#404040; text-decoration:none;	}
+.MainMenuLink{	FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#404040; text-decoration:none;	}
+a.MainMenuLink:hover{	FONT:Verdana, Arial, Helvetica; color:#404040;font-weight:bold; text-decoration:none;	}
+
+.MainMenuLinkSelected{background-color:#486DB1;FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#FFFFFF;  text-decoration:none; }
+a.MainMenuLinkSelected:hover{background-color:#486DB1;FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#FFFFFF; text-decoration:none;  }
+
+.MainMenuLink{ FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#404040; text-decoration:none;	}
+a.MainMenuLink:hover{	FONT:Verdana, Arial, Helvetica; color:#404040;font-weight:bold; text-decoration:none;	}
+
+.TableTopLink{ font-size:10px; FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#404040; text-decoration:none;	}
+a.TableTopLink:hover{	font-size:10px; FONT:Verdana, Arial, Helvetica; color:#404040;font-weight:bold; text-decoration:underline;	}
+/*
+.menuhighlight {
+    FONT: bold 11px Verdana, arial; color:#FFFFFF;
+	background-color:#486DB1;
+/*	BACKGROUND-IMAGE: url(../images/MenuSelectedBG.gif); BACKGROUND-REPEAT: repeat-x */
+
+}
+.MainMenuLinkSelected
+{
+	FONT: bold 11px Verdana, arial; color:#FFFFFF;
+	text-decoration:none;
+	background-color:#486DB1;
+}
+
+a.MainMenuLinkSelected:link { 
+	FONT: bold 11px Verdana, arial; color:#FFFFFF;
+	padding:18px 0px 0px 0px;
+	text-decoration:none;
+}
+
+a.MainMenuLinkSelected:hover { 
+	FONT: bold 11px Verdana, arial; color:#ffffff; TEXT-DECORATION: none
+}
+
+
+.MainMenuBGSelected{
+		FONT: bold 11px Verdana, arial; color:#ffffff; TEXT-DECORATION: none;
+	BACKGROUND: #6592CE; FILTER: progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#6592CE',EndColorStr:'#114EA0'); 
+}
+
+
+.BoxBGColor
+{
+background-color:#F0F0F0;
+}
+.TableTopBgColor
+{
+background-color:#81A2DD;
+FONT:Verdana, Arial, Helvetica;
+ font-weight:bold; color:#FFFFFF; 
+ padding:5px 0px 5px 10px;
+}
+
+/*
+#jsMenuLinks td
+{
+padding:5px 0px 0px 0px;
+}
+*/
+
+.InnerPageTableTopBgColor
+{
+background-color:#81A2DD;
+FONT:Verdana, Arial, Helvetica;
+ font-weight:bold; color:#FFFFFF; 
+ padding:3px 0px 3px 5px;
+}
+
+
+.OrangeFontColor
+{
+FONT:Verdana, Arial, Helvetica; font-weight:bold;
+color:#CC5B00;
+}
+
+.darkcementcolorfont{FONT:Verdana, Arial, Helvetica;color:#656465;}
+
+.darkcementcolorBoxfont{FONT:Verdana, Arial, Helvetica;color:#5E5E5E;text-decoration:none}
+a.darkcementcolorBoxfont:hover{	FONT:Verdana, Arial, Helvetica; color:#5E5E5E; text-decoration:underline;	}
+
+.readmorefont{	FONT:Verdana, Arial, Helvetica; color:#2B4B8B; text-decoration:none;	}
+a.readmorefont:hover{	FONT:Verdana, Arial, Helvetica; color:#2B4B8B; text-decoration:underline;	}
+
+.TableBorderColorWithoutTop
+{
+	border-left:#DADADA solid 1px;
+	border-right:#DADADA solid 1px;
+	border-bottom:#DADADA solid 1px;
+
+}
+
+/* ---  CSS InnerPage Start --------------------------------------------------------- */
+
+.MainTitleMenuLink{	FONT:Verdana, Arial, Helvetica; font-size:14px; font-weight:bold; color:#000000; text-decoration:none;	}
+a.MainTitleMenuLink:hover{	FONT:Verdana, Arial, Helvetica; color:#000000;font-weight:bold; text-decoration:none;	}
+
+
+.InnerPageBGColor
+{
+background-color:#EAEDF2;
+ 
+}
+
+.InnerPageLeftMenuLine{
+background-color:#C3CEE1;
+ 
+}
+.InnerHeaderOrangeFontColor
+{
+FONT:Verdana, Arial, Helvetica; font-weight:bold;
+color:#DA7405;
+}
+.PaddingRight5px
+{
+padding-right:5px;
+}
+
+DIV.InnerPageRight 
+{
+	MARGIN: 0px;
+}
+
+DIV.InnerPageRight A 
+{
+	BACKGROUND: url(../Images/DottedPoint.gif) #ffffff no-repeat; 
+	FONT: 10px Verdana, arial; COLOR: #16387C;
+	text-decoration:none;
+	PADDING-RIGHT: 0px; 
+	DISPLAY: block; 
+	PADDING-LEFT: 15px;
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}
+
+
+DIV.InnerPageRight A:hover
+{
+	BACKGROUND: #ffffff; COLOR: #16387C;text-decoration:underline;
+	BACKGROUND: url(../Images/DottedPoint.gif) #ffffff no-repeat; 
+}
+
+
+.InnerPageNavLink{	FONT:Verdana, Arial, Helvetica;   color:#0F55C3; text-decoration:none; padding-left:3px;padding-right:3px;}
+a.InnerPageNavLink:hover{	FONT:Verdana, Arial, Helvetica; color:#0F55C3; text-decoration:underline;padding-left:3px;padding-right:3px;	}
+
+.InnerPageNavLink1{	FONT:Verdana, Arial, Helvetica;   color:black; text-decoration:none; padding-left:3px;padding-right:3px;}
+a.InnerPageNavLink1:hover{	FONT:Verdana, Arial, Helvetica; color:black; text-decoration:underline;padding-left:3px;padding-right:3px;	}
+
+
+
+.MainLeftMenuLink{
+	color:#0F55C3;
+	font-size:10px; 
+	Font-weight:bold;text-decoration:none;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	text-align:left;
+	PADDING-LEFT: 12px; BACKGROUND: url(../Images/Arrow-Oragne.gif) #EAEDF2 no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+}	
+
+A.MainLeftMenuLink:hover
+{   font-size:10px; 
+	DISPLAY: block; BACKGROUND: #ffffff; COLOR: #DA7405;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	text-align:left;
+	PADDING-LEFT: 12px;BACKGROUND: url(../Images/Arrow-Oragne.gif) #EAEDF2 no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+	text-decoration:none;
+}
+
+
+.MainLeftMenuSelectLinkDiffent{	
+	font-size:9px; 
+	DISPLAY: block; BACKGROUND: #ffffff; COLOR: #A50F0E;
+	PADDING-RIGHT: 0px;  
+	text-align:left;Font-weight:bold;
+	PADDING-LEFT: 12px;BACKGROUND: url(../Images/Arrow-Oragne.gif) #ffffff no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+	text-decoration:none;
+}
+
+.MainLeftMenuLinkDiffent{
+	color:#4792B1;
+	font-size:9px; 
+	Font-weight:bold;text-decoration:none;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	text-align:left;
+	PADDING-LEFT: 12px; BACKGROUND: url(../Images/Arrow-Oragne.gif) #ffffff no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+}	
+
+A.MainLeftMenuLinkDiffent:hover
+{   font-size:9px; 
+	DISPLAY: block; BACKGROUND: #ffffff; COLOR: #4792B1;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	text-align:left;
+	PADDING-LEFT: 12px;BACKGROUND: url(../Images/Arrow-Oragne.gif) #ffffff no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+	text-decoration:none;
+}
+
+
+.MainLeftMenuSelectLink{
+	font-size:10px; 
+	DISPLAY: block; BACKGROUND: #ffffff; COLOR: #DA7405;
+	PADDING-RIGHT: 0px;  
+	text-align:left;Font-weight:bold;
+	PADDING-LEFT: 12px;BACKGROUND: url(../Images/Arrow-Oragne.gif) #F4F7FB no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+	text-decoration:none;
+	 
+}	
+
+A.MainLeftMenuSelectLink:hover
+{   font-size:10px; 
+	DISPLAY: block; BACKGROUND: #ffffff; COLOR: #DA7405;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	PADDING-LEFT: 12px;BACKGROUND: url(../Images/Arrow-Oragne.gif) #F4F7FB no-repeat; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 0px;
+	text-decoration:none;
+}
+
+.MainLeftMenuSubLinkSelected{
+FONT: 10px Verdana, arial; COLOR: #CC5B00;
+	text-decoration:none;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	PADDING-LEFT: 12px; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}
+
+.MainLeftMenuSubLink{
+	FONT: 10px Verdana, arial; COLOR: #0F55C3;
+	text-decoration:none;
+	PADDING-RIGHT: 0px; DISPLAY: block; 
+	PADDING-LEFT: 12px; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}	
+A.MainLeftMenuSubLink:hover
+
+{	font-size:10px; 
+    COLOR:#DA7405;
+	PADDING-RIGHT: 0px;  
+	PADDING-LEFT: 12px;
+	text-decoration:underline;
+}
+
+.MainLeftMenuSubLinkSpecail{
+	FONT: 10px Verdana, arial; COLOR: #0F55C3;
+	text-decoration:none;
+	PADDING-RIGHT: 0px;  
+	PADDING-LEFT: 12px; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}
+.MainLeftMenuSubLinkSpecailHightLight{
+	FONT: 10px Verdana, arial; COLOR: #CC5B00;
+	text-decoration:none;
+	PADDING-RIGHT: 0px;  
+	PADDING-LEFT: 12px; 
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}
+.SpecialClassForInHouse
+{	FONT: 10px Verdana, arial; COLOR: #0F55C3;
+	text-decoration:none;
+}
+
+A.MainLeftMenuSubLinkSpecail:hover
+
+{	font-size:10px; 
+    COLOR:#DA7405;
+	PADDING-RIGHT: 0px;  
+	PADDING-LEFT: 12px;
+	text-decoration:underline;
+}
+
+
+/* ---  CSS Footer Start --------------------------------------------------------- */
+
+.CopyRight
+{
+color:#545454;
+	PADDING-RIGHT: 8px;  
+}
+
+.CopyRightIcon
+{
+color:#838383;
+}
+ 
+.FooterLink {
+	FONT:Verdana, Arial, Helvetica; font-size:10px ; color:#FFFFFF;text-decoration:none;	
+}
+
+a.FooterLink:hover {
+	FONT:Verdana, Arial, Helvetica; color:#000066;text-decoration:underline;
+}
+
+.FooterLinkBGColor
+{
+background-color:#81A2DD;
+}
+.FooterBG
+{
+background-color:#CFCFCF;padding-right:10px;
+}
+.FooterBGLine
+{
+background-color:#CFCFCF;
+}
+.redtext {
+	FONT: bold 11px Verdana, arial; color:#FF0805;
+}
+
+
+.DButton {
+	FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #e5e5e5; TEXT-DECORATION: none
+}
+TR.steelblue_header2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #5f85b2
+}
+TR.steelblue_header2 A {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #5f85b2
+}
+TR.steelblue_header2 A:hover {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10px; COLOR: yellow; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #5f85b2
+}
+.Alt_shade_blue {
+	BACKGROUND-COLOR: #A6CAF0;
+}
+/* ---  CSS Footer End --------------------------------------------------------- */
+
+
+/* --- Script CSS Start --------------------------------------------------------- */
+.cssMenu
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.cssMenuLinks {
+	padding:2px 0px 0px 5px;
+	height: 20px;
+	float: left;
+}
+
+.cssMenuPos,.cssMenuItems{
+	border-color:#CCCCCC;
+	border-style:solid;
+	
+}
+
+.cssMenuItems {
+	cursor:hand;
+	cursor:pointer;
+	padding:2px 2px 2px 5px;
+	color:#525252;
+	background:#EBEBEB;
+/* white-space: nowrap; */
+	/*BACKGROUND-IMAGE: url(../images/MenuBG.gif); BACKGROUND-REPEAT: repeat-x;*/
+	font-weight:bold;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:10px;
+	border-width:0px 0px 1px 0px;
+
+}
+
+.cssMenuItemsOver {
+	/*	color:#ffffff;
+		background-color:#6A8ECE;
+	*/	
+	BACKGROUND: #6592ce; FILTER: progid:DXImageTransform.Microsoft.Gradient
+   (GradientType:0,StartColorStr:'#6592CE',EndColorStr:'#114EA0'); 
+   CURSOR: pointer;
+   COLOR: #ffffff;
+
+	/*BACKGROUND-IMAGE: url(../images/MenuSelectedBG.gif); BACKGROUND-REPEAT: repeat-x*/
+}
+
+.cssMenuPos {
+	position:absolute;
+	border-width:1px 1px 0px 1px;
+}
+
+#jsMenuLinks {
+/*
+	text-align:left;
+	position:relative; 
+	z-index: 1020;
+	*/
+	text-align:left;
+	position:relative; 
+}
+
+ 
+
+ .LeftHeaderInnerLinkSelected{	FONT:Verdana, Arial, Helvetica; color:#006600;text-decoration:none;	}
+a.LeftHeaderInnerLinkSelected:hover {	FONT:Verdana, Arial, Helvetica; color:#006600;text-decoration:underline;}
+
+.LeftSubInnerLinkSelected{	FONT:Verdana, Arial, Helvetica; color:#000000;text-decoration:none;	}
+a.LeftSubInnerLinkSelected:hover{	FONT:Verdana, Arial, Helvetica; color:#3366CC;text-decoration:underline;	}
+
+.SitemapLink{	FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#006600;text-decoration:none;		}
+a.SitemapLink:hover {	FONT:Verdana, Arial, Helvetica; font-weight:bold; color:#006600;text-decoration:none;	}
+.MainInnnerLinkSiteMap	{
+font-family: Helvetica, sans-serif; font-size: 14px ; font-weight:bold;color:#585858;text-decoration:none;	}
+
+a.MainInnnerLinkSiteMap:hover {	
+font-family: Helvetica, sans-serif; font-size: 14px ; font-weight:bold; color:#585858;text-decoration:underline;}
+
+
+
+.BorderColorForJob
+{
+background-color:#99ccff;
+}
+
+ 
+.button1 {
+font-size: 11px;
+	height:20px;
+	font-family: Verdana, Arial;
+	border:1px solid; border-color:#A0A7AF;
+	width:60px;
+	background-color:#DADADA;
+	margin:0px 11px 0px 0px;
+}
+
+input
+{
+	border:1px solid; border-color:#A0A7AF;
+}
+.rowbg1 {
+	background-color:#ABCDEF;
+}
+
+.whitebg {
+	background-color:#FFFFFF;
+}
+
+.rowbg {
+	background-color:#AAC8FB;
+}
+.line {
+	background-color:#A2A5AF;
+}

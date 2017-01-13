@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>ss_jsite</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+	<servlet>
+    <description>2Lights Mail Services</description>
+    <display-name>2Lights Mail Services</display-name>
+    <servlet-name>SendEnquiry</servlet-name>
+    <servlet-class>com.twolights.mail.SendEnquiry</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SendEnquiry</servlet-name>
+    <url-pattern>/sendingQuery</url-pattern>
+  </servlet-mapping>
+  
+  <!-- <resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>jdbc/SS_JSITE_DB</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref> -->
+	
+</web-app>
